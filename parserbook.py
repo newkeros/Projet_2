@@ -1,4 +1,4 @@
-# file for parsing
+"""Parse all data needed and put it in a dictionary"""
 
 from Request import request
 

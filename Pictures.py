@@ -1,3 +1,5 @@
+"""To download pictures from categories"""
+
 import requests
 from pathlib import Path
 

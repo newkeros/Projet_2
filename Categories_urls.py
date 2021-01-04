@@ -1,3 +1,5 @@
+"""Collect all categories urls"""
+
 from bs4 import BeautifulSoup
 import requests
 

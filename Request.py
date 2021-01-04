@@ -1,4 +1,4 @@
-# File to make the request
+"""Make the request on the website"""
 
 import requests
 from bs4 import BeautifulSoup

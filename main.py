@@ -1,3 +1,5 @@
+"""Main file to run"""
+
 from parserbook import get_all_product_infos
 from Get_category_books import get_category_books
 from CSV_creator import create_csv

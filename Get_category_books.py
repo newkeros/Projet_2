@@ -1,4 +1,4 @@
-# File to get all books url from a category
+"""Get all books urls from a category"""
 
 from bs4 import BeautifulSoup
 import requests

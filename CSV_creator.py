@@ -1,4 +1,5 @@
-# File for creating csv file
+"""Create CSV file"""
+
 import csv
 from pathlib import Path
 
