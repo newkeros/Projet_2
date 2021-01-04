@@ -23,14 +23,3 @@ def get_category_books(category_url):
         category_url = base_url + "page-" + str(i) + ".html"
     return books_urls
 
-    # mettre dans une liste et chercher dans les differentes pages
-    # liste de livre et dico de catégorie
-
-
-# récupérer url d'une page puis boucle pour plusieurs pages
-# va chercher tant qu'il y a un next parse les livres
-# titrer le csv avec le nom de la catégorie
-# refaire cours sur les fonction avec le passage en argument (input)
-# Puis on met toutes les url dans un dico
-# On parse les infos de chaque url de la liste
-# On envoie ces infos vers un nouveau csv
