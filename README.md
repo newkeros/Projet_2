@@ -1,7 +1,9 @@
 # Utilisez les bases de Python pour l'analyse de marché
 
 
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
+
 
 
 
@@ -9,24 +11,25 @@
 
 This script let you parse and scrape informations from books.toscrape.com website. When you run it, it scrapes the website and export to CSV files all books informations from each category. It also download all books images for each category.
 
-Entrez ici les instructions pour bien débuter avec votre projet...
 
-### What do you need to run this project
+
+
+## What do you need to run this project
 
 In the requirements.txt you will find all the following libraries. These libraries are mandatory to run the script.
 
-beautifulsoup4==4.9.3
-certifi==2020.6.20
-chardet==3.0.4
-idna==2.10
-lxml==4.5.2
-requests==2.24.0
-soupsieve==2.0.1
-urllib3==1.25.10
-tqdm==4.55.0
+* beautifulsoup4==4.9.3
+* certifi==2020.6.20
+* chardet==3.0.4
+* idna==2.10
+* lxml==4.5.2
+* requests==2.24.0
+* soupsieve==2.0.1
+* urllib3==1.25.10
+* tqdm==4.55.0
 
 
-### Set up the project
+## Set up the project
 
 This project is made with Python 3
 
