@@ -44,7 +44,7 @@ Install the libraries with `<install -r requirements.txt>`
 
 Execute the main.py file with the folder path you want the script to go in `<python main.py <path_you_decide> >`
 
-A data folder will be created. In this folder, the script will create folders for each categories. In each category folder a CSV file with books informations will be created. A folder with all the images from this category will be created as well.
+A data folder will be created. In this folder, the script will create a folder for each category. In each category folder, a CSV file with books informations will be created. A folder with all the images from this category will be created as well.
 
 **Disclaimer** : Please be patient, the script needs approximatively 13 minutes to be fully run.
 
