@@ -1,17 +1,19 @@
 # Utilisez les bases de Python pour l'analyse de marché
 
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 
-Une petite description du projet
 
-## Pour commencer
+
+## What’s the purpose of this script
+
+This script let you parse and scrape informations from books.toscrape.com website. When you run it, it scrapes the website and export to CSV files all books informations from each category. It also download all books images for each category.
 
 Entrez ici les instructions pour bien débuter avec votre projet...
 
-### Pré-requis
+### What do you need to run this project
 
-Ce qu'il est requis pour commencer avec votre projet...
+In the requirements.txt you will find all the following libraries. These libraries are mandatory to run the script.
 
 beautifulsoup4==4.9.3
 certifi==2020.6.20
@@ -23,51 +25,35 @@ soupsieve==2.0.1
 urllib3==1.25.10
 tqdm==4.55.0
 
-### Installation
 
-Les étapes pour installer votre programme....
+### Set up the project
 
-Dites ce qu'il faut faire...
+This project is made with Python 3
 
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
+Clone it on your computer with the git clone command : « Git clone https://github.com/newkeros/Projet_2.git »
+
+Create a virtual environment with « cd Projet_2 -m venv env » and activate it
+
+Install the libraries with « install -r requirements.txt »
 
 
-Ensuite vous pouvez montrer ce que vous obtenez au final...
+## Run the project
 
-## Démarrage
+Execute the main.py file with the folder path you want the script to go in « python main.py <path_you_decide> »
 
-Dites comment faire pour lancer votre projet
+A data folder will be created. In this folder, the script will create folders for each categories. In each category folder a CSV file with books informations will be created. A folder with all the images from this category will be created as well.
 
-## Fabriqué avec
+Disclaimer : Please be patient, the script needs approximatively 13 minutes to be fully run.
 
-Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
 
-_exemples :_
-* [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
-* [Atom](https://atom.io/) - Editeur de textes
+## Made with
 
-## Contributing
+OpenClassrooms website
+Requests, Urllib3 and BeautifulSoup4 documentations
+Python crash course book from Eric Matthes
+The continuous help of my mentor
 
-Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
 
-## Versions
-Listez les versions ici 
-_exemple :_
-**Dernière version stable :** 5.0
-**Dernière version :** 5.1
-Liste des versions : [Cliquer pour afficher](https://github.com/your/project-name/tags)
-_(pour le lien mettez simplement l'URL de votre projets suivi de ``/tags``)_
 
-## Auteurs
-Listez le(s) auteur(s) du projet ici !
-* **Jhon doe** _alias_ [@outout14](https://github.com/outout14)
-
-Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
-
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
-
-## License
-
-Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
 
 
