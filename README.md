@@ -9,7 +9,7 @@
 
 ## What’s the purpose of this script
 
-This script let you parse and scrape informations from books.toscrape.com website. When you run it, it scrapes the website and export to CSV files all books informations from each category. It also download all books images for each category.
+This script let you parse and scrape informations from [books.toscrape.com](https://books.toscrape.com/index.html) website. When you run it, it scrapes the website and export to CSV files all books informations from each category. It also download all books images for each category.
 
 
 
