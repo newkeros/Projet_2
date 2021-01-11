@@ -22,4 +22,3 @@ def get_category_books(category_url):
         i += 1
         category_url = base_url + "page-" + str(i) + ".html"
     return books_urls
-
