@@ -33,16 +33,16 @@ In the requirements.txt you will find all the following libraries. These librari
 
 This project is made with Python 3
 
-Clone it on your computer with the git clone command : `<Git clone https://github.com/newkeros/Projet_2.git>`
+Clone it on your computer with the git clone command : `<git clone https://github.com/newkeros/Projet_2.git>`
 
 Create a virtual environment with `<cd Projet_2 -m venv env>` and activate it
 
-Install the libraries with `<install -r requirements.txt>`
+Install the libraries with `<pip install -r requirements.txt>`
 
 
 ## Run the project
 
-Execute the main.py file with the folder path you want the script to go in `<python main.py <path_you_decide>`
+Execute the main.py file with `<python main.py>`
 
 A data folder will be created. In this folder, the script will create a folder for each category. In each category folder, a CSV file with books informations will be created. A folder with all the images from this category will be created as well.
 
