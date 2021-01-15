@@ -1,10 +1,9 @@
-"""Get all books urls from a category"""
-
 from bs4 import BeautifulSoup
 import requests
 
 
 def get_category_books(category_url):
+    """Get all books urls from a category"""
     base_url = category_url[:-10]
     next_flag = True
     books_urls = list()

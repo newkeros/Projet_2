@@ -1,10 +1,9 @@
-"""Create CSV file"""
-
 import csv
 from pathlib import Path
 
 
 def create_csv(product):
+    """Create CSV file in a category named folder"""
     path = Path(".") / "Data" / product["category"]
     path.mkdir(parents=True, exist_ok=True)
     filepath = path / (product["category"] + ".csv")

@@ -1,10 +1,9 @@
-"""Collect all categories urls"""
-
 from bs4 import BeautifulSoup
 import requests
 
 
 def collect_categories_urls(website_url):
+    """Return a list of all categories urls"""
     response = requests.get(website_url)
     soup = BeautifulSoup(response.text, "lxml")
     links_list = list()

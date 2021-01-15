@@ -1,10 +1,10 @@
-"""To download pictures from categories"""
 
 import requests
 from pathlib import Path
 
 
 def get_picture(product):
+    """To download pictures from categories"""
     response = requests.get(product["image_url"])
 
     path = Path(".") / "Data" / product["category"] / "Image"
