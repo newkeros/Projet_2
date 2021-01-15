@@ -1,6 +1,6 @@
 """Parse all data needed and put it in a dictionary"""
 
-from Request import request
+from request import request
 
 
 def get_title(article):

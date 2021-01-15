@@ -1,10 +1,10 @@
 """Main file to run"""
 
 from parserbook import get_all_product_infos
-from Get_category_books import get_category_books
-from CSV_creator import create_csv
-from Pictures import get_picture
-from Categories_urls import collect_categories_urls
+from get_category_books import get_category_books
+from csv_creator import create_csv
+from pictures import get_picture
+from categories_urls import collect_categories_urls
 from tqdm import tqdm
 
 
